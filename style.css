@@ -18,7 +18,7 @@ background:#cfe8f6;
 
 .template{
   height:100vh;
-  width:520px;   /* 👈 இதை increase பண்ணினேன் */
+  width:500px;  
   max-width:100%;
 
   background:url("template.jpg") no-repeat center;
@@ -42,7 +42,21 @@ width:68%;      /* reduced width so it doesn't touch frame */
 text-align:center;
 
 }
+.contact-text{
+  margin-top:10px;
+  font-size:13px;
+  color:#333;
+}
 
+.contact-text a{
+  color:#1a73e8;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.contact-text a:hover{
+  text-decoration:underline;
+}
 /* TITLES */
 
 h2{
@@ -145,5 +159,9 @@ padding:8px;
 button{
 width:70%;
 }
+ .contact-text{
+    font-size:12px;   /* 👈 slightly smaller */
+    margin-top:8px;
+  }
 
 }
